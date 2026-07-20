@@ -1,0 +1,69 @@
+.Formulario {
+    border-radius: 10px;
+}
+
+button {
+    border-radius: 10px;
+}
+
+body {
+    background: linear-gradient(to bottom right, rgb(228, 249, 244), rgb(86, 181, 196));
+}
+
+.container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+
+}
+
+#Mostruario #Nome {
+    height: 31px;
+    width: 300px;
+}
+
+#Mostruario #Senha {
+    height: 31px;
+    width: 300px;
+}
+
+#Mostruario {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 600px;
+    height: 450px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+
+}
+
+#Mostruario #Botão {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+#Mostruario #Senha {
+    text-align: center;
+}
+
+#Mostruario #Nome {
+    text-align: center;
+}
+
+#Mostruario #Botão #Enviar {
+    width: 70px;
+    height: 35px;
+    font-size: 14px;
+    border-radius: 40px;
+}
+
+.container #Mostruario #cadastro {
+    text-align: center;
+}
