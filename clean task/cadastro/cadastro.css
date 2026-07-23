@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(to right, rgb(228, 249, 244), rgb(86, 181, 196));
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container .cadastro {
+
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 400px;
+}
+
+.container .cadastro #titulo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container .cadastro .entrada input{
+    border-radius: 10px;
+    text-align: center;
+}
+.container .cadastro #Botão{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+
+}
+
+.container .cadastro #Botão button{
+    border-radius: 10px;
+    height: 30px;
+    width: 60px;
+}
